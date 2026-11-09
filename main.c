@@ -3,12 +3,8 @@
 
 int main(void)
 {
-    char src[]="The worst things to eat before you sleep";
-    char dst[100];
-
-    //복사
-    strcpy(dst,src);
-
-    printf("copied string : %s\n", dst);
+    char str[30]="happy C programming";
+    
+    printf("string\"%s\"length:%i",str,strlen(str));
     return 0;
 }
